@@ -1,0 +1,14 @@
+
+{
+   "name": "会计自动化",
+   "version": "0.0.1",
+   "manifest_version":2,
+   "description": "自定义描述信息",
+   "icons": { "48": "48.png" },
+   "page_action": { "default_icon": "48.png" },
+   "permissions": [ "tabs" ],
+   "content_scripts": [{
+       "matches": ["https://www.xmkjjy.com/play/*"],
+       "js": ["kuaiji.js"]
+       }]
+}
